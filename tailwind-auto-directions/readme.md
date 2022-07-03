@@ -17,6 +17,25 @@ But by using start class you can use inset-inline-start. So we write like this
 ```
 In this way, in direction:rtl the element starts from the right side and in direction:ltr from the left side
 
+### Usage
+Install tailwind-auto-directions with npm:
+```
+npm i tailwind-auto-directions --save
+```
+In `tailwind.config.js` add the following line to the plugin section.
+Change the plugin section of the `tailwind.config.js` file like this and add the `tailwind-auto-directions` plugin to this section
+```js
+module.exports = {
+  content: ["./src/**/*.{html,js}","./index.html"],
+  theme: {
+    extend: {},
+  },
+  plugins: [
+    require('./tailwind-auto-directions') // <-- add this line
+  ],
+}
+```
+
 ### Usable classes
 | Class     | Description         |
 |-----------|---------------------|

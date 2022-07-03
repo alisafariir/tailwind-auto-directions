@@ -2,12 +2,12 @@
   "name": "tailwind-auto-directions",
   "description": "A TailwindCSS plugin for add start/end classes for rtl/ltr support",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "keywords": ["Tailwindcss","Tailwind rtl","Tailwind ltr","Tailwind start end"],
   "author": "Ali Safari <asafari72@gmail.com> (https://alisafari.ir)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/asafari72/tailwind-rtl-utilities.git"
+    "url": "https://github.com/asafari72/tailwind-auto-directions.git"
   }
 }
